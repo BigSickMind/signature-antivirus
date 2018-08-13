@@ -85,9 +85,6 @@ void MainWindow::on_pushButton_2_clicked()
                     str[s.length()-1] = 92;
                     str += file_name + '"';
                     string str_out = str;
-                    //for (int i = 0; i < str.length(); i++)
-                       //if (str[i] == 47)
-                           //str[i] = 92;
                     for (int i = 0; i < str.length(); i++)
                        if (str[i] == 92)
                            str[i] = 47;
